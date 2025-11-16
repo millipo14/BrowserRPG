@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Minecraft Rus';
+    src:url('./fonts/minecraft.ttf') format('truetype');
+}
+
+body {
+    background-color: #120800;
+    color: #EEE1C2;
+    font-family: 'Minecraft Rus', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+.bodys {
+    width: 328px;
+    text-align: center;
+    margin-top: 123px;
+}
+
+.diamond {
+    margin-bottom: 41px;
+}
+
+.diamond {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.diamond img {
+    animation:
+        floatUpDown 3s ease-in-out infinite,
+        rotateDiamond 8s linear infinite;
+}
+
+@keyframes floatUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-21px);
+    }
+}
+
+.greeting {
+    font-size: 25px;
+    margin-bottom: 15px;
+    line-height: 120%;
+}
+
+.description {
+    color: #EEE1C2;
+    opacity: 60%;
+    font-size: 13px;
+    line-height: 120%;
+}
+
+.footer {
+    margin-top: 24px;
+}
+
+.btn a {
+    display: inline-block;
+    background-color: #EEE1C2;
+    border-radius: 8px;
+    color: #120800;
+    padding: 12px 24px;
+    transition: all 0.3s;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.btn a:hover {
+    background-color: #FFF1D1;
+    transition: all 0.2s ease-in;
+}
+
+.btn a:active {
+    background-color: #D6CAAF;
+    transition: all 0.2s ease-in;
+}

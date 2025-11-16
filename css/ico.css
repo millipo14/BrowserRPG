@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Minecraft Rus';
+    src: url('./fonts/minecraft.ttf') format('truetype');
+}
+
+body {
+    background-color: rgb(10, 10, 10, 0.6);
+    color: #EEE1C2;
+    font-size: 25px;
+    font-family: 'Minecraft Rus', sans-serif;
+    line-height: 120%;
+}
+
+#result {
+    font-size: 25px;
+    transition: opacity 0.5s ease;
+}
+
+.cast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 278px;
+}
+
+.area {
+    padding: 4px;
+    border: 1px solid rgba(238, 225, 194, 0.6);
+    background-color: #120800;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 32px;
+    font-size: 16px;
+    color: #AE9BD9;
+    line-height: normal;
+}
+
+.txt-ico {
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.ico {
+    color: black;
+    max-width: 50%;
+    height: auto;
+    padding-bottom: 20px;
+    transition: all 0.3s ease;
+
+}
+
+.ico.rotating {
+    filter: blur(2px) brightness(1.0);
+    animation: rotate 3s ease-in;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(3600deg);
+    }
+}

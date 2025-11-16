@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Minecraft Rus';
+    src: url('./fonts/minecraft.ttf') format('truetype');
+}
+
+body {
+    background-color: #120800;
+    color: #EEE1C2;
+    font-family: 'Minecraft Rus', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    height: 64px;
+    background-color: #221000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: start;
+    padding-top: 20px;
+    column-gap: 38px;
+    padding-left: 4.5%;
+}
+
+.header img {
+    width: 22px;
+    height: 22px;
+}
+
+.header-txt {
+    text-align: center;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.bodys {
+    margin: 16px;
+}
+
+.name {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+.input-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 328px;
+    height: 44px;
+    font-size: 16px;
+    border: 1px solid rgba(238, 225, 194, 0.3);
+    border-radius: 4px;
+    color: rgba(238, 225, 194, 0.6);
+}
+
+.characters {
+    margin-top: 24px;
+}
+
+.title-characters {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon-hero {
+    width: 44px;
+    height: 44px;
+    border: 2px solid #EEE1C2;
+}
+
+.hearts {
+    margin-left: 8px;
+    margin-right: 17px;
+}
+
+.info {
+    display: flex;
+    margin-top: 12px;
+}
+
+.info-1,
+.info-2 {
+    display: flex;
+    font-size: 12px;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.info-hero-1,
+.info-hero-2,
+.info-hero-3,
+.info-hero-4,
+.info-hero-5,
+.info-hero-6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 78px;
+    height: 32px;
+    border: 1px solid rgba(238, 225, 194, 0.6);
+    border-radius: 4px;
+}
+
+.info-hero-1 {
+    color: #EEC2C3;
+}
+
+.info-hero-2 {
+    color: #C2D0EE;
+}
+
+.info-hero-3 {
+    color: #DB9DC7;
+}
+
+.info-hero-4 {
+    color: #EEE1C2;
+}
+
+.info-hero-5 {
+    color: #C2EEC2;
+}
+
+.info-hero-6 {
+    color: #AE9BD9;
+}
+
+.picture {
+    width: 70px;
+    height: 72px;
+    border: 1px solid rgba(238, 225, 194, 0.6);
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 16px;
+}
+
+.footer {
+    margin-top: 245px;
+    text-align: center;
+}
+
+.btn a {
+    display: inline-block;
+    background-color: #EEE1C2;
+    border-radius: 8px;
+    color: #120800;
+    padding: 10.5px 59px;
+    transition: all 0.2s;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.btn a:hover {
+    background-color: #FFF1D1;
+    transition: all 0.2s ease-in;
+}
+
+.btn a:active {
+    background-color: #D6CAAF;
+    transition: all 0.2s ease-in;
+}
