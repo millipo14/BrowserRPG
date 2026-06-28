@@ -6,6 +6,7 @@
 
 ## Demo
 Ссылка: https://millipo14.github.io/BrowserRPG/start.html
+
 **Адаптировано только под мобильные экраны**
 
 ## Технологии
